@@ -1,0 +1,213 @@
+
+.title-text h1{
+	font-family:poppins, verdana; 
+	font-size: 4em;
+	color: rgb(119,113,12);
+	margin-bottom: 5%;
+	margin-left: 10%;
+	padding-top: 5%;
+
+}
+
+.title-text p{
+	font-family:poppins, verdana; 
+	font-size: 1.2em;
+	text-align: right;
+	
+}
+
+.logo img{
+	width: 350px;
+	position:absolute;
+	top:-55px;
+	left: -10px;
+	z-index: -999;
+	opacity: 0.5;
+
+	}
+
+.nav{
+	background-color:rgba(217,198,95,0.75);
+}
+
+.nav-item{
+	font-family: Lato, verdana ;
+	font-size: 1em;
+	font-weight: bold;
+	/*color:rgb(169,169,169);*/
+}
+
+ .nav-link {
+	color: green;
+
+}
+
+div .carousel-caption{
+	background-color: rgba(152,150,140,0.8);
+}
+.sub-nav ul li {
+	text-decoration: none;
+	list-style: none;
+		
+
+}
+
+#top-left, #middle{
+	margin-top: 8%;
+	margin-bottom: 8%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.footer{
+	width: 100%;
+	text-align: center;
+	background-color: rgba(217,198,95,0.3);
+	font-family: Montserrat,lato, verdana;
+}
+
+
+.footer ul li{
+	justify-content: center;
+	text-align: left;
+	}
+
+.footer a{
+	text-decoration: none;
+	color:green;
+	font-weight: bold;
+
+}
+
+.card{
+	border-radius: 15px;
+	/*margin-top:8% ;*/
+	margin:2%;
+}
+
+.card-body p{
+	padding: 5%;
+	font-family: lato, verdana;
+}
+
+.card-img-top{
+	border-radius: 15px;
+}
+
+p.card-person-caption{
+	background-color: rgba(217,198,95,0.5);
+	border-radius: 10px;
+	
+}
+.mb-0 a{
+	font-size: 0.8em;
+	color:green;
+
+} 
+
+.card-hover:hover{
+	 opacity: 0.5;
+}
+.card-inside:hover{
+	opacity: 1;
+}
+
+.video-position{
+    min-height: 300px;
+
+}
+
+#bg-video{
+    opacity: 0.7;
+    z-index: -999; 
+    min-width: 250px;
+    
+}
+
+
+.container-fluid{
+	background-color: rgb(152,150,140);
+}
+
+
+
+.step-bg-text{
+	background-color:rgba(217,198,95,0.5);
+	color:grey;
+	padding: 3%;
+	border-radius: 15px;
+}
+.step-number{
+	font-size: 2em;
+	font-family: poppins, arial;
+	font-weight: bold;
+	color: green;
+	text-align: center;
+	text-align: center;
+	
+}
+
+ .carousel-caption a{
+	text-decoration: none;
+	color: white;
+	font-family: lato, verdana;
+}
+
+.carousel-caption p{
+	text-decoration: none;
+	color: white;
+	font-family: lato, verdana;
+}
+
+
+.btn a {
+	color:black;
+}
+
+.col-sm-5{
+	padding: 2%;
+	font-family: lato, verdana;
+}
+
+.col-sm-6{
+	padding: 5%;
+	font-family: lato, verdana;
+}
+
+
+.col-sm-6 img{
+	border-radius: 10px;
+	opacity: 0.85;
+}
+
+#about-us-card{
+	margin-top: 5%;
+}
+
+.col-sm-5 p{
+	font-family: poppin, verdana;
+	font-size: 1.2em;
+	padding:2%;
+}
+
+#history-block{
+	background-color: grey;
+	color: rgb(251,250,245);
+	font-family: poppin, verdana;
+}
+
+.col-sm-9{
+	background-color: rgba(251,250,245,0.5);
+	font-family: lato, verdana;
+	font-size: 1.2em;
+	padding: 2%;
+}
+
+
+/*----------------------------animation--------------------------*/
+
+.logo img{
+	animation-name: slideInLeft;
+	animation-duration: 1.5s;
+}
+
